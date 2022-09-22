@@ -63,13 +63,14 @@ public class UserAssignment {
 				System.out.println("Your Height is "+height);
 				
 				// Calculate BMI
-				float bmi=(100*100*weight)/(height*height);
+				float bmi=(weight)/(height*height);
 				System.out.println("Your BMI is "+bmi);
 				float f=100,m=2;
 				float difference= f-bmi;
 				System.out.println("Your BMI Difference is "+difference);
 				float modulation = bmi%2;
 				System.out.println("Your BMI Mod is "+modulation);
+				System.out.println("Your BMI with Add 10 " +(bmi+10));
 				printBMI(bmi);
 				
 			}
